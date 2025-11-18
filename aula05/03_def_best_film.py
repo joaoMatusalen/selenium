@@ -9,6 +9,9 @@ browser = Firefox()
 browser.get(url)
 
 def melhor_filme(browser, filme, email, telefone):
+    """
+    Preenche o formulario com melhor filme na minha opnião na data de hoje.
+    """
 
     browser.find_element(By.NAME, 'filme').send_keys(filme)
     browser.find_element(By.NAME, 'email').send_keys(email)
