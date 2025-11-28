@@ -3,13 +3,8 @@
 from selenium.webdriver import Firefox
 from selenium.webdriver.common.by import By
 
-url = 'https://selenium.dunossauro.com/aula_06_a.html'
+url = 'https://selenium.dunossauro.com/aula_06.html'
 
 browser = Firefox()
 
 browser.get(url)
-
-#%%
-
-browser.find_element(By.CSS_SELECTOR, 'input').send_keys('joao')
-

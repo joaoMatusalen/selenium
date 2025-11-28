@@ -11,5 +11,4 @@ browser.get(url)
 
 #%%
 
-browser.find_element(By.CSS_SELECTOR, 'input').send_keys('joao')
-
+browser.find_elements(By.CSS_SELECTOR, 'div.form-group + br')
